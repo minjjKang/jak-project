@@ -412,7 +412,8 @@
          "$OUT/iso/3COMMON.TXT"
          "$OUT/iso/4COMMON.TXT"
          "$OUT/iso/5COMMON.TXT"
-         "$OUT/iso/6COMMON.TXT")
+         "$OUT/iso/6COMMON.TXT"
+         "$OUT/iso/17COMMON.TXT")
   )
 
 (defstep :in "game/assets/jak1/game_subtitle.gp"
@@ -423,7 +424,8 @@
          "$OUT/iso/3SUBTIT.TXT"
          "$OUT/iso/4SUBTIT.TXT"
          "$OUT/iso/5SUBTIT.TXT"
-         "$OUT/iso/6SUBTIT.TXT")
+         "$OUT/iso/6SUBTIT.TXT"
+         "$OUT/iso/17SUBTIT.TXT")
   )
 
 
@@ -1902,6 +1904,7 @@
  "gfx/shadow/shadow-cpu.gc"
  "gfx/shadow/shadow-vu1.gc"
  "gfx/depth-cue.gc"
+ "gfx/korean-font.gc"
  "gfx/font.gc"
  "load/decomp.gc"
  "gfx/background/background.gc"
@@ -2125,4 +2128,3 @@
 (group-list "all-code"
   `(,@(reverse *all-gc*))
   )
-
